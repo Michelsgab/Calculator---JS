@@ -17,3 +17,10 @@
     padding: 16px;
     font-size: 25px;
 }
+
+.buttons {
+    display: grid;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
