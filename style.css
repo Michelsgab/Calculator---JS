@@ -11,11 +11,12 @@
 }
 
 #display {
+  font-size: 25px;
+  font-weight: bold;
   text-align: right;
   height: 70px;
   line-height: 70px;
   padding: 16px 8px;
-  font-size: 25px;
 }
 
 .buttons {
@@ -39,7 +40,7 @@
 }
 
 .button:hover {
-  background-color: #323330;
+  background-color: #717579;
   color: #fff;
   transition: 0.5s ease-in-out;
 }
@@ -47,4 +48,10 @@
 #equal {
   background-color: rgb(85, 85, 255);
   color: #fff;
+}
+
+#equal:hover {
+  background-color: #07427c;
+  color: #fff;
+  transition: 0.5s ease-in-out;
 }
